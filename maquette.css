@@ -21,6 +21,7 @@ label.logo{
     line-height: 95px;
     margin-left: 50px;
     padding: 0 ;
+    font-weight: bolder;
 }
 nav ul{
     float: right;
