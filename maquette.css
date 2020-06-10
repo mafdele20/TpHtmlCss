@@ -103,5 +103,68 @@ header {
     border-right:  2px solid gray;
 }
 p{
+    font: inherit;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: gray;
+}
+.checkbtn{
+    font-size: 30px;
+    float: right;
+    line-height: 80px ;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    
+}
+
+#check {
+    display: none;
+}
+@media(max-width : 952px){
+    label.logo {
+        font-size: 16px;
+        padding-left: 20px;
+    }
+    nav ul li a {
+        font-size: 14px;
+    
+    }
+}
+@media(max-width : 852px){
+
+  .checkbtn{
+      display: block;
+      color: white;
+   }
+   ul{
+       position: relative;
+       width: 100%;
+       height: 30vh;
+       top: 10px;
+       left: 0;
+       text-align: center;
+   }
+   nav ul li {
+    display: block;
+    }
+    nav ul li a {
+        color: white;
+        font-size: 15px;
+
+    }
+   .main{
+    display: block;
+    padding: 5px;
+
+
+}
+hr
+{
+    margin-left: 20px;
+    width:  90%;
+    border-width: 0.cm;
+}
+h1{
+    font-size: 20px;
+}
 }
